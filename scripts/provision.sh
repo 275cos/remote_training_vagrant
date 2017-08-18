@@ -9,8 +9,8 @@ updatedb
 
 
 # install Anaconda from vagrant folder to a global directory for all users
-bash /vagrant/Anaconda3-4.4.0-Linux-x86_64.sh -bf -p /opt/anaconda
-echo 'export PATH="/opt/anaconda/bin:$PATH"' >> /etc/profile
+#bash /vagrant/Anaconda3-4.4.0-Linux-x86_64.sh -bf -p /opt/anaconda
+#echo 'export PATH="/opt/anaconda/bin:$PATH"' >> /etc/profile
 
 
 # disable vagrant user and add assessor user, addgroups for openvpn and anaconda	

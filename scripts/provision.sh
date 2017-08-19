@@ -30,8 +30,6 @@ chmod +x /home/assessor/connect.sh
 
 cp /vagrant/update-resolv-conf /etc/openvpn
 chmod +x /etc/openvpn/update-resolv-conf
-chgrp -R anaconda /opt/anaconda
-chmod 770 -R /opt/anaconda
 
 
 #allow no password sudo for assessor
